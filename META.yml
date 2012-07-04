@@ -13,7 +13,11 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: perlsecret
+provides:
+  perlsecret:
+    file: lib/perlsecret.pm
+    version: 1.001
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/book/perlsecret
-version: 1.000
+version: 1.001
