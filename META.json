@@ -4,7 +4,7 @@
       "Philippe Bruhat (BooK) <book@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.112621",
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -28,7 +28,7 @@
    "provides" : {
       "perlsecret" : {
          "file" : "lib/perlsecret.pm",
-         "version" : "1.003"
+         "version" : "1.004"
       }
    },
    "release_status" : "stable",
@@ -40,5 +40,5 @@
          "url" : "http://github.com/book/perlsecret"
       }
    },
-   "version" : "1.003"
+   "version" : "1.004"
 }
