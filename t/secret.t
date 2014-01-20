@@ -161,6 +161,12 @@ $n =(@got)= "abababab" =~ /a/g;
 is( $n, 4, '=()=' );
 is( "@got", 'a a a a', '=()=' );
 
+# right-handed goatse
+{
+    my @a = ( [], [1], [ 1, 2 ], [], [ 5 .. 9 ], [] );
+    is_deeply( [ grep +()= @$_, @a ], [ [1], [ 1, 2 ], [ 5 .. 9 ] ], '()=' );
+}
+
 # goatse + split
 $n =()= @{[ split /:/, "a:a:a:a" ]};
 is( $n, 4, "=()= split" );
@@ -177,7 +183,7 @@ is( "@got", "camel\n llama\n", '~~<>' );
 @got = ( ~~<DATA> );     # return '' instead of undef at EOF
 is( "@got", '', '~~<>' );
 
-# 0rnate double bladed sword
+# ornate double-bladed sword
 $got = 1;
 
 <<m=~m>>
