@@ -16,8 +16,8 @@ name: perlsecret
 provides:
   perlsecret:
     file: lib/perlsecret.pm
-    version: 1.006
+    version: 1.007
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/book/perlsecret
-version: 1.006
+version: 1.007
