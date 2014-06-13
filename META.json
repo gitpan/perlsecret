@@ -28,7 +28,7 @@
    "provides" : {
       "perlsecret" : {
          "file" : "lib/perlsecret.pm",
-         "version" : "1.008"
+         "version" : "1.009"
       }
    },
    "release_status" : "stable",
@@ -40,5 +40,5 @@
          "url" : "http://github.com/book/perlsecret"
       }
    },
-   "version" : "1.008"
+   "version" : "1.009"
 }
