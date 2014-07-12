@@ -1,4 +1,4 @@
 package perlsecret;
+$perlsecret::VERSION = '1.010';
 use strict;    # make CPANTS happy
-our $VERSION = '1.009';
 0;    # no point in loading this module
