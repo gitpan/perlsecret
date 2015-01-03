@@ -60,6 +60,20 @@ is( 0+!!$zero,      $zero, '0+!!' );
 is( 0+!!'a string', $true, '0+!!' );
 is( 0+!!$undef,     $zero, '0+!!' );
 
+# serpent of truth
+is( ~~!!$true,      $true, '~~!!' );
+is( ~~!!$false,     $zero, '~~!!' );
+is( ~~!!$zero,      $zero, '~~!!' );
+is( ~~!!'a string', $true, '~~!!' );
+is( ~~!!$undef,     $zero, '~~!!' );
+
+# ???
+is( 1-!$true,       $true, '1-!' );
+is( 1-!$false,      $zero, '1-!' );
+is( 1-!$zero,       $zero, '1-!' );
+is( 1-!'a string',  $true, '1-!' );
+is( 1-!$undef,      $zero, '1-!' );
+
 # Abbott and Costello
 is_deeply( [ $true ||(), $false ||(), $undef ||(), $zero ||() ],
     [$true], '||()' );

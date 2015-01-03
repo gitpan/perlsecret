@@ -3,21 +3,21 @@ abstract: 'Perl secret operators and constants'
 author:
   - 'Philippe Bruhat (BooK) <book@cpan.org>'
 build_requires:
-  Test::More: '0.94'
-  integer: '0'
-  warnings: '0'
+  Test::More: 0.94
+  integer: 0
+  warnings: 0
 configure_requires:
-  ExtUtils::MakeMaker: '6.30'
+  ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.016, CPAN::Meta::Converter version 2.133380'
+generated_by: 'Dist::Zilla version 5.008, CPAN::Meta::Converter version 2.143240'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: '1.4'
+  version: 1.4
 name: perlsecret
 requires:
-  strict: '0'
+  strict: 0
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=perlsecret
   repository: http://github.com/book/perlsecret.git
-version: '1.011'
+version: 1.012
